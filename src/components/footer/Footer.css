@@ -1,0 +1,60 @@
+.footer {
+    background: #666;
+    padding: 30px 43px 15px;
+    text-align: left;
+    font-size: 19px;
+    font-weight: 100;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.list {
+    width: 50%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    color: white;
+    font-family: Montserrat-Light;
+}
+
+.list ul {
+    list-style: none;
+}
+
+.list ul li {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.list a {
+    color: white;
+}
+
+.list a:hover {
+    color: #cbcbcb;
+}
+
+.iso {
+    color: #58ccb6;
+    font-size: 22px;
+    padding-left: 40px;
+    margin-top: 48px;
+    padding-bottom: 40px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.social {
+    width: 35px;
+    height: auto;
+    padding-right: 20px;
+    vertical-align: middle;
+}

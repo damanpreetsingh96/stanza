@@ -1,0 +1,115 @@
+.header {
+    width: 100%;
+    height: 80px;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    background: white;
+}
+
+.wrapper {
+    height: 38px;
+}
+.header-logo {
+    width: 150px;
+    margin-right: 10px;
+    margin-left: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nav-item {
+    color: #58ccb6;
+    padding-right: 40px;
+    font-weight: 700;
+    font-family: Gotham-Book;
+    font-size: 18px;
+}
+
+.drop-down {
+    height: 12px;
+    padding-bottom: 20px;
+}
+
+ul.popOver-list li, ul.header-nav-bar li {
+    display:inline;
+    height: 100%;
+    padding-top: 16px;
+    cursor: pointer;
+}
+
+ul.popOver-list li {
+    margin-left: 40px;
+}
+
+ul.popOver-list li:last-child {
+    margin-right: 40px;
+}
+
+ul.popOver-list li:hover {
+    color: black;
+}
+.header-nav-bar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.header-button-link {
+}
+
+.header-button-item {
+    font-size: 18px;
+    margin: 0px;
+    background: orange;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 10px 40px;
+    text-align: center;
+    border: 1px solid orange;
+}
+
+.popOver-link {
+    float: right;
+    width: 100%;
+}
+
+.popOver {
+    position: fixed;
+    z-index: 1000;
+    top: 60px;
+    left: 160px;
+    background: rgba(37,212,179,.7);
+    border-radius: 0 0 9px 9px;
+    color: white;
+}
+.popOver-list {
+    list-style: none;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.popOverContainer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.popOver a {
+    color: white;
+}
+
+.popOver a:hover {
+    color : black;
+}

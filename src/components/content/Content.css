@@ -1,0 +1,152 @@
+.container {
+    width: 100%;
+}
+
+.container-content-1 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1080px;
+    margin-top: 60px;
+}
+
+.bg-green {
+    background: #58ccb6;
+    color: white;
+}
+
+.exploring-residence {
+    background: url(https://d20370j06smcvr.cloudfront.net/sl_repo_image/images/explore-res-bg.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 300px;
+    color: #58ccb6;
+}
+
+.res-select-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.city {
+    background: url(https://d20370j06smcvr.cloudfront.net/images/city-icon.svg) no-repeat;
+    width: 60px;
+    height: 53px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.college {
+    background: url(https://d20370j06smcvr.cloudfront.net/images/country-icon.svg) no-repeat;
+    width: 60px;
+    height: 53px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.go {
+    align-items: center;
+    background: #58ccb6;
+    color: black;
+    display: flex;
+    min-height: 35px;
+    min-width: 60px;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.stanza-h1 {
+    font-size: 70px;
+    color: #58ccb6;
+    font-weight: 300;
+    font-family: Montserrat-Light;
+}
+
+.why-stanza {
+
+    padding-bottom: 46px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.desc {
+    font-family: Montserrat-Light;
+    font-size: 19px;
+    line-height: 1.43em;
+}
+
+.why-stanza-desc {
+    color: #656565;
+    padding-bottom: 12px;
+}
+
+.down-arrow {
+    margin-bottom: 24px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.container-content-2 {
+    padding-top: 58px;
+}
+
+.stanza {
+    font-family: Montserrat-Regular;
+    font-weight: 300;
+    font-size: 34px;
+    margin-bottom: 48px;
+}
+
+.stanza-pg-desc {
+    margin-left: 63px;
+    margin-right:63px;
+    margin-bottom: 48px;
+}
+
+.container-content-3 {
+    margin-top: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+    width: 1110px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.stanza-flat {
+    color: #58ccb6;
+    margin-bottom: 16px;
+}
+
+.stanza-residence {
+    padding-top: 16px;
+    margin-bottom: 48px;
+}
+
+.stanza-select {
+    width: 271px;
+    height: 38px;
+    border: 2px solid #58ccb6;
+    color: #58ccb6;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Gotham-Book;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: none;
+}
+
+ul.res-select-form li {
+    margin-right: 15px;
+}
+
+ul.res-select-form li:last-child {
+    margin-top: auto;
+}

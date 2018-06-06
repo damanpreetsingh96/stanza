@@ -1,0 +1,8 @@
+option {
+    text-align: left;
+    background: white;
+}
+select {
+    text-align-last: center;
+    text-align: center;
+}
